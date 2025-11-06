@@ -38,13 +38,23 @@ Each tournament has a unique `tournament_id` and its own isolated state.
 
 ---
 
-## Key Benefits
+## Prerequisites
 
-- Deterministic pairing — reproducible and fair  
-- Persistent state — stored in DynamoDB  
-- Multi-user consistency — shared tournament IDs  
-- Auditable logic — all calculations explicit  
-- Composable tools — any LLM, app, or dashboard can call the same APIs  
+This MCP server requires access to **AWS DynamoDB** for storing tournament data.  
+You must have:
+
+1. An AWS account with DynamoDB permissions (`dynamodb:*` or equivalent).
+2. Local AWS credentials configured via one of the following:
+   - `~/.aws/credentials`
+   - Environment variables (`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and optionally `AWS_DEFAULT_REGION`)
+   - IAM role if running on AWS infrastructure (Lambda, ECS, or EC2)
+3. A DynamoDB table named `TournamentTable` (created automatically on first run if it doesn’t exist).
+
+Example AWS CLI check:
+
+```bash
+aws dynamodb list-tables
+```
 
 ---
 
