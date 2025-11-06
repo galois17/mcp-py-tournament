@@ -1,0 +1,10 @@
+[project]
+name = "mcp-py-tournament"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "boto3>=1.40.67",
+    "fastmcp>=2.13.0.2",
+]
