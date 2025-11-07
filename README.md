@@ -6,12 +6,11 @@ It provides deterministic, stateful control of tournaments — players, matches,
 <h2 align="center">Walkthrough</h2>
 <p align="center">
   <a href="https://www.youtube.com/watch?v=usOr6ZGmceM" target="_blank">
-    <img src="https://img.youtube.com/vi/usOr6ZGmceM/0.jpg" 
+    <img src="assets/mcp-tourney-overlay.jpg" 
          alt="Walkthrough" width="720">
   </a>
 </p>
 
-[![MCP Tourney Walkthrough](assets/mcp-tourney-overlay.jpg)](https://www.youtube.com/watch?v=usOr6ZGmceM)
 
 ---
 
