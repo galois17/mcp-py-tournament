@@ -3,6 +3,14 @@
 This MCP Server exposes a Model Context Protocol (MCP) server for managing recreational tennis or pickleball tournaments.  
 It provides deterministic, stateful control of tournaments — players, matches, rounds, and standings — while remaining conversational through an LLM like Gemini or ChatGPT.
 
+<h2 align="center">Walkthrough</h2>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=usOr6ZGmceM" target="_blank">
+    <img src="https://img.youtube.com/vi/usOr6ZGmceM/0.jpg" 
+         alt="Walkthrough" width="720">
+  </a>
+</p>
+
 ---
 
 ## Why Not Just Let the LLM Handle It?
