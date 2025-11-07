@@ -11,6 +11,8 @@ It provides deterministic, stateful control of tournaments — players, matches,
   </a>
 </p>
 
+[![MCP Tourney Walkthrough](assets/mcp-tourney-overlay.jpg)](https://www.youtube.com/watch?v=usOr6ZGmceM)
+
 ---
 
 ## Why Not Just Let the LLM Handle It?
