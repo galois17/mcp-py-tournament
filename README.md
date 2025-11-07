@@ -87,12 +87,3 @@ LLMs like Gemini can discover and call these tools dynamically.
 5. **User:** “Show standings.”  
    → MCP retrieves deterministic state: who’s leading, active matches, etc
 
-----
-
-## Summary
-
-The LLM is the brain that talks and plans.  
-The MCP server is the engine that enforces rules and keeps score.  
-DynamoDB is the memory that makes it all persistent.
-
-Together, they form a reliable, transparent, and data-driven tournament management system — perfect for clubs, student demos, or AI orchestration projects.
